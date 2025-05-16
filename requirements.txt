@@ -1,0 +1,5 @@
+langchain
+worldnewsapi
+streamlit
+openai
+langchain_openai
