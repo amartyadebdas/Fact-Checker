@@ -1,0 +1,765 @@
+2025-05-30 11:37:03,198 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:18,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:18,700 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:37:21,788 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:21,796 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:37:21,798 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:37:24,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:24,787 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:37:24,788 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:37:26,599 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:37:26,599 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:37:28,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:31,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:34,234 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:37,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:40,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:42,978 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:45,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:49,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:52,617 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:56,018 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:58,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:37:58,404 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:38:01,827 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:01,830 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:38:01,830 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 11:38:06,975 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:06,978 - project_logger - INFO - ===Comparison completed===
+2025-05-30 11:38:06,979 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:38:11,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:11,178 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:38:11,178 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:38:12,158 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:12,162 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:38:12,162 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:38:13,265 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:38:13,265 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:38:14,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:14,824 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:38:15,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:15,821 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:38:15,822 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 11:38:19,210 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:19,234 - project_logger - INFO - ===Comparison completed===
+2025-05-30 11:38:19,270 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:38:21,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:21,112 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:38:21,113 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:38:22,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:22,022 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:38:22,023 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:38:22,967 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:38:22,967 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:38:24,171 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:26,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:30,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:34,436 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:36,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:39,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:42,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:45,943 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:49,608 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:51,852 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:55,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:38:55,007 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:39:11,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:11,215 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:39:11,215 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 11:39:17,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:17,552 - project_logger - INFO - ===Comparison completed===
+2025-05-30 11:39:17,555 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:39:19,390 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:19,394 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:39:19,395 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:39:20,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:20,397 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:39:20,398 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:39:21,116 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:39:21,117 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:39:22,357 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:22,363 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:39:23,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:23,813 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:39:23,813 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 11:39:28,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:39:28,151 - project_logger - INFO - ===Comparison completed===
+2025-05-30 11:56:43,616 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:57:07,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:57:07,799 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:57:11,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:57:11,569 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:57:11,570 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:57:12,595 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:57:12,596 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:57:12,597 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:57:13,947 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:57:13,947 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:57:15,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:57:15,845 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:57:17,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:57:17,432 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:57:17,433 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 11:59:11,840 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:18,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:18,411 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:59:20,344 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:20,348 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:59:20,348 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:59:21,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:21,890 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:59:21,891 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:59:23,074 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:59:23,075 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:59:26,733 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:26,735 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:59:27,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:27,787 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:59:27,787 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 11:59:30,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:30,741 - project_logger - INFO - ===Comparison completed===
+2025-05-30 11:59:30,742 - project_logger - INFO - ---Processing Claim---
+2025-05-30 11:59:32,126 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:32,129 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 11:59:32,130 - project_logger - INFO - ---Generating keywords---
+2025-05-30 11:59:33,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:33,073 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 11:59:33,073 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 11:59:33,842 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 11:59:33,842 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 11:59:35,251 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:37,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:39,992 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:42,432 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:46,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:49,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:51,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:51,251 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 11:59:57,878 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 11:59:57,882 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 11:59:57,882 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:00:00,262 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:00,265 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:00:00,265 - project_logger - INFO - ---Processing Claim---
+2025-05-30 12:00:01,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:01,715 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:00:01,715 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:00:02,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:02,976 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:00:02,977 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:00:04,033 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:00:04,033 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:00:05,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:08,554 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:11,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:14,642 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:17,550 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:20,621 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:23,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:23,285 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:00:28,711 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:28,716 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:00:28,717 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:00:31,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:00:31,785 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:16:51,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:16:59,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:16:59,302 - project_logger - INFO - --- Processing Claim: 'The Trump administration urged a court to uphold the tariff power.  ' ---
+2025-05-30 12:16:59,305 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:17:03,124 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:03,130 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:17:03,132 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:17:03,133 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:17:03,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:03,891 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:17:03,911 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:17:05,168 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:17:05,171 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:17:05,173 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:17:07,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:07,179 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:17:10,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:13,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:16,598 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:20,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:24,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:27,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:30,715 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:34,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:38,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:42,240 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:42,244 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:17:42,244 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:17:51,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:51,743 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:17:51,744 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:17:51,744 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:17:57,087 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:57,097 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:17:57,098 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:17:57,139 - project_logger - INFO - --- Processing Claim: 'The Trump administration stated that the legal setback could change the course of an “asymmetric” trade truce with China.  ' ---
+2025-05-30 12:17:57,142 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:17:59,134 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:17:59,136 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:17:59,136 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:17:59,137 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:18:00,058 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:00,060 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:18:00,070 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:18:00,979 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:18:00,980 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:18:00,980 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:18:05,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:05,151 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:09,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:12,708 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:12,716 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:12,717 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:18:17,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:17,979 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:18:17,979 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:17,980 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:18:21,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:21,850 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:18:21,851 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:21,896 - project_logger - INFO - --- Processing Claim: 'The Trump administration claimed that the legal setback could revive the India-Pakistan conflict.  ' ---
+2025-05-30 12:18:21,899 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:18:25,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:25,575 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:18:25,576 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:25,577 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:18:26,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:26,311 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:18:26,322 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:18:27,091 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:18:27,092 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:18:27,093 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:18:29,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:29,860 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:34,124 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:34,127 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:34,127 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:18:37,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:37,654 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:18:37,657 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:37,657 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:18:43,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:43,782 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:18:43,783 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:43,840 - project_logger - INFO - --- Processing Claim: 'Officials claimed that President Trump used his tariff power to broker a ceasefire between India and Pakistan earlier in May.  ' ---
+2025-05-30 12:18:43,843 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:18:46,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:46,307 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:18:46,309 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:46,310 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:18:47,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:47,047 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:18:47,062 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:18:47,864 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:18:47,867 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:18:49,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:49,418 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:49,419 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:49,419 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:18:50,832 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:50,833 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:18:50,834 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:50,834 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:18:53,198 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:53,199 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:18:53,200 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:53,249 - project_logger - INFO - --- Processing Claim: 'Officials claimed that both India and Pakistan were involved in a conflict following a terror attack by Pakistan-based terrorists in Jammu and Kashmir's Pahalgam on April 22.' ---
+2025-05-30 12:18:53,252 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:18:55,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:55,565 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:18:55,565 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:55,566 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:18:56,787 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:56,791 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:18:56,814 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:18:57,101 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:18:57,108 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:18:58,415 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:58,429 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:58,432 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:58,439 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:18:59,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:18:59,912 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:18:59,913 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:18:59,914 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:19:02,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:19:02,114 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:19:02,116 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:25:04,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:38,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:38,509 - project_logger - INFO - --- Processing Claim: 'Royal Challengers Bengaluru qualified for its fourth Indian Premier League (IPL) final.  ' ---
+2025-05-30 12:25:38,516 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:25:42,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:42,143 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:25:42,144 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:25:42,144 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:25:43,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:43,234 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:25:43,276 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:25:44,633 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:25:44,634 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:25:44,635 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:25:46,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:46,589 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:25:49,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:51,800 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:53,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:53,731 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:25:53,731 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:25:56,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:56,543 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:25:56,544 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:25:56,545 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:25:59,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:25:59,821 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:25:59,823 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:25:59,888 - project_logger - INFO - --- Processing Claim: 'Royal Challengers Bengaluru qualified for its first IPL final since 2016.  ' ---
+2025-05-30 12:25:59,894 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:26:01,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:01,423 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:26:01,424 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:01,424 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:26:02,244 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:02,246 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:26:02,257 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:26:03,032 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:26:03,039 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:26:03,040 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:26:04,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:04,330 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:06,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:09,156 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:09,160 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:09,161 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:26:14,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:14,592 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:26:14,592 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:14,592 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:26:17,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:17,278 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:26:17,279 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:17,451 - project_logger - INFO - --- Processing Claim: 'Royal Challengers Bengaluru achieved an eight-wicket victory against Punjab Kings during Qualifier 1 in New Chandigarh on Thursday.' ---
+2025-05-30 12:26:17,463 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:26:20,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:20,123 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:26:20,124 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:20,124 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:26:20,982 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:20,985 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:26:21,002 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:26:21,238 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:26:21,241 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:26:23,031 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:23,034 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:23,035 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:23,036 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:26:24,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:24,461 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:26:24,462 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:26:24,463 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:26:26,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:26:26,926 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:26:26,927 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:41:07,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:24,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:24,630 - project_logger - INFO - --- Processing Claim: 'Royal Challengers Bengaluru qualified for its first Indian Premier League (IPL) final since 2016.  ' ---
+2025-05-30 12:41:24,634 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:41:29,205 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:29,208 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:41:29,209 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:41:29,209 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:41:30,287 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:30,289 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:41:30,300 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:41:31,376 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:41:31,378 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:41:31,379 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:41:32,778 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:32,787 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:41:37,882 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:40,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:44,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:51,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:53,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:41:56,282 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:00,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:03,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:05,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:08,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:08,176 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:08,176 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:42:19,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:19,641 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:42:19,642 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:19,642 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:42:23,231 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:23,233 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:42:23,234 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:23,285 - project_logger - INFO - --- Processing Claim: 'Royal Challengers Bengaluru qualified for its fourth IPL final overall.  ' ---
+2025-05-30 12:42:23,287 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:42:25,468 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:25,470 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:42:25,470 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:25,471 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:42:26,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:26,608 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:42:26,628 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:42:27,427 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:42:27,428 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 12:42:27,428 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:42:28,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:28,861 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:37,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:39,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:40,929 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:42,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:44,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:45,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:48,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:51,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:52,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:54,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:54,168 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:54,168 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:42:57,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:42:57,761 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:42:57,761 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:42:57,762 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:43:00,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:43:00,542 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:43:00,543 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:43:00,591 - project_logger - INFO - --- Processing Claim: 'Royal Challengers Bengaluru achieved the qualification after winning against Punjab Kings by eight wickets during Qualifier 1 in New Chandigarh on Thursday.' ---
+2025-05-30 12:43:00,596 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 12:43:02,856 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:43:02,859 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 12:43:02,860 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:43:02,860 - project_logger - INFO - ---Generating keywords---
+2025-05-30 12:43:04,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:43:04,971 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 12:43:04,980 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 12:43:05,546 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 12:43:05,550 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 12:43:07,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:43:07,282 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:43:07,282 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:43:07,283 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 12:43:08,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:43:08,291 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 12:43:08,291 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 12:43:08,291 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 12:43:11,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 12:43:11,386 - project_logger - INFO - ===Comparison completed===
+2025-05-30 12:43:11,387 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:06:22,621 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:06:50,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:06:50,468 - project_logger - INFO - --- Processing Claim: 'The future of international students at Harvard University has been thrown into turmoil.  ' ---
+2025-05-30 13:06:50,484 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:06:52,260 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:06:52,283 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:06:52,297 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:06:52,298 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:06:53,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:06:53,562 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:06:53,657 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:06:55,158 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:06:55,159 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 13:06:55,159 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:06:56,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:06:56,769 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:06:59,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:02,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:05,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:08,306 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:10,858 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:14,037 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:18,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:21,383 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:24,343 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:26,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:26,096 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:07:26,097 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:07:30,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:30,999 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:07:31,001 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:07:31,002 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:07:34,018 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:34,021 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:07:34,022 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:07:34,117 - project_logger - INFO - --- Processing Claim: 'The Trump administration announced a ban on the enrollment of international students at Harvard starting in the 2025–26 academic year.  ' ---
+2025-05-30 13:07:34,134 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:07:35,768 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:35,772 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:07:35,774 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:07:35,776 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:07:36,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:36,420 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:07:36,434 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:07:37,505 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:07:37,507 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 13:07:37,507 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:07:39,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:39,722 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:07:41,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:44,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:50,161 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:52,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:56,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:07:58,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:01,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:03,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:05,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:07,816 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:07,842 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:07,844 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:08:10,342 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:10,344 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:08:10,345 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:10,345 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:08:12,920 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:12,932 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:08:12,934 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:13,160 - project_logger - INFO - --- Processing Claim: 'The Trump administration’s ban on the enrollment of international students at Harvard has sparked outrage.  ' ---
+2025-05-30 13:08:13,163 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:08:14,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:14,401 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:08:14,402 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:14,403 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:08:15,174 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:15,185 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:08:15,255 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:08:16,077 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:08:16,081 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:08:17,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:17,235 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:17,243 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:17,244 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:08:18,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:18,066 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:08:18,078 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:18,082 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:08:20,631 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:20,633 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:08:20,633 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:20,849 - project_logger - INFO - --- Processing Claim: 'The Trump administration’s ban on the enrollment of international students at Harvard has caused panic.  ' ---
+2025-05-30 13:08:20,871 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:08:22,411 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:22,413 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:08:22,414 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:22,414 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:08:23,147 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:23,168 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:08:23,191 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:08:23,824 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:08:23,827 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:08:24,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:24,944 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:24,948 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:24,948 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:08:25,636 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:25,645 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:08:25,647 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:25,648 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:08:26,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:26,516 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:08:26,518 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:26,748 - project_logger - INFO - --- Processing Claim: 'The Trump administration's ban on the enrollment of international students at Harvard has led to legal challenges.  ' ---
+2025-05-30 13:08:26,776 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:08:28,198 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:28,200 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:08:28,200 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:28,201 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:08:29,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:29,541 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:08:29,614 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:08:30,375 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:08:30,378 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:08:31,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:31,676 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:31,678 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:31,678 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:08:32,662 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:32,663 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:08:32,664 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:08:32,665 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:08:33,747 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:08:33,758 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:08:33,759 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:10:29,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:18,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:18,541 - project_logger - INFO - --- Processing Claim: 'The future of international students at Harvard University has been thrown into turmoil.  ' ---
+2025-05-30 13:11:18,545 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:11:20,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:20,507 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:11:20,516 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:11:20,517 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:11:21,124 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:21,127 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:11:21,165 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:11:22,079 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:11:22,086 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 13:11:22,086 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:11:24,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:24,107 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:11:26,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:28,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:32,010 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:35,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:37,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:40,667 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:44,772 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:47,366 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:51,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:53,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:53,711 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:11:53,712 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:11:57,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:11:57,595 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:11:57,599 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:11:57,622 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:12:00,970 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:00,984 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:12:00,997 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:01,235 - project_logger - INFO - --- Processing Claim: 'The Trump administration’s recent move to ban the enrolment of international students at Harvard starting in the 2025–26 academic year has sparked outrage, panic, and legal challenges.  ' ---
+2025-05-30 13:12:01,262 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:12:03,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:03,096 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:12:03,096 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:03,097 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:12:03,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:03,925 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:12:04,007 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:12:05,095 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:12:05,103 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:12:06,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:06,547 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:06,555 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:06,557 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:12:07,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:07,377 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:12:07,378 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:07,378 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:12:10,516 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:10,518 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:12:10,519 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:10,621 - project_logger - INFO - --- Processing Claim: 'Congress MP Shashi Tharoor expressed disappointment over the Colombian government’s heartfelt condolences over the loss of lives in Pakistan.  ' ---
+2025-05-30 13:12:10,625 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:12:12,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:12,439 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:12:12,464 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:12,466 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:12:13,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:13,330 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:12:13,387 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:12:14,698 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:12:14,719 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 13:12:14,721 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:12:16,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:16,161 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:18,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:21,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:23,611 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:25,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:29,787 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:31,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:34,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:36,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:36,302 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:36,303 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:12:38,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:38,953 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:12:38,956 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:38,962 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:12:45,726 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:45,737 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:12:45,745 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:45,910 - project_logger - INFO - --- Processing Claim: 'Shashi Tharoor criticized the Colombian government for expressing condolences regarding the loss of lives in Pakistan rather than sympathizing with the victims of terrorism.  ' ---
+2025-05-30 13:12:45,917 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:12:48,366 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:48,372 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:12:48,377 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:48,378 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:12:49,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:49,694 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:12:49,796 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:12:50,436 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:12:50,439 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 13:12:50,442 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:12:56,449 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:12:56,452 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:12:59,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:03,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:06,796 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:10,410 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:13,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:15,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:18,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:21,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:21,856 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:21,863 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:13:24,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:24,706 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:13:24,707 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:24,708 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:13:27,700 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:27,705 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:13:27,706 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:27,988 - project_logger - INFO - --- Processing Claim: 'Shashi Tharoor stated that there can be no equivalence between those who dispatch terrorists and those who resist them.  ' ---
+2025-05-30 13:13:27,995 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:13:29,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:29,590 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:13:29,594 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:29,597 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:13:30,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:30,502 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:13:30,571 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:13:31,324 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:13:31,334 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:13:32,560 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:32,582 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:32,591 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:32,609 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:13:33,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:33,434 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:13:33,438 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:33,438 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:13:35,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:35,676 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:13:35,680 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:35,969 - project_logger - INFO - --- Processing Claim: 'Shashi Tharoor is leading an all-party delegation in Bogotá.' ---
+2025-05-30 13:13:35,977 - project_logger - INFO - ---Generating claim dictionary---
+2025-05-30 13:13:37,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:37,970 - project_logger - INFO - ===Claim dictionary generated.===
+2025-05-30 13:13:37,971 - project_logger - ERROR - Failed to log claim_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:37,972 - project_logger - INFO - ---Generating keywords---
+2025-05-30 13:13:38,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:38,682 - project_logger - INFO - ===Keywords Generated.===
+2025-05-30 13:13:38,734 - project_logger - INFO - ---Fetching Articles---
+2025-05-30 13:13:39,853 - project_logger - INFO - ===Articles fetched.===
+2025-05-30 13:13:39,861 - project_logger - ERROR - Failed to log articles summary as artifact: 'str' object has no attribute 'get'
+2025-05-30 13:13:39,862 - project_logger - INFO - ---Generating Blank Dictionary---
+2025-05-30 13:13:42,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:42,052 - project_logger - ERROR - Failed to log blank_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:13:44,168 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:46,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:48,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:52,073 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:54,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:13:57,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:00,394 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:02,730 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:04,934 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:06,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:06,982 - project_logger - ERROR - Failed to log article_dictionaries as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:14:06,983 - project_logger - INFO - ---Generating Final Dictionary---
+2025-05-30 13:14:18,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:18,303 - project_logger - INFO - ===Final dictionary generated===
+2025-05-30 13:14:18,304 - project_logger - ERROR - Failed to log final_dictionary as artifact: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'
+2025-05-30 13:14:18,306 - project_logger - INFO - ---Comparing claim with evidence---
+2025-05-30 13:14:21,934 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 13:14:21,947 - project_logger - INFO - ===Comparison completed===
+2025-05-30 13:14:21,957 - project_logger - ERROR - Failed to log comparison_result or confidence: PrettyPrinter.pprint() got an unexpected keyword argument 'stream'

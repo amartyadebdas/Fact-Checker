@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amartya.debdas/Desktop/Projects_Personal/test/Fact-Checker/mlruns/0/3e14493eb4a3456ea113bdef95d0f07c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e14493eb4a3456ea113bdef95d0f07c
+run_name: blushing-chimp-662
+run_uuid: 3e14493eb4a3456ea113bdef95d0f07c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748590874962
+status: 1
+tags: []
+user_id: amartya.debdas

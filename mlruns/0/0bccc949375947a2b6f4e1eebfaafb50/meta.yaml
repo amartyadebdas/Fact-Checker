@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amartya.debdas/Desktop/Projects_Personal/test/Fact-Checker/mlruns/0/0bccc949375947a2b6f4e1eebfaafb50/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bccc949375947a2b6f4e1eebfaafb50
+run_name: illustrious-koi-585
+run_uuid: 0bccc949375947a2b6f4e1eebfaafb50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748589082854
+status: 1
+tags: []
+user_id: amartya.debdas

@@ -21,7 +21,7 @@ def fetch_articles_from_keywords(
         List[Dict]: A list of news article objects.
     """
     load_dotenv()
-    api_key = os.environ.get("WORLDNEWS_API_KEY_CHOWDHURY")
+    api_key = os.environ.get("WORLDNEWS_API_KEY")
 
     if not api_key:
         raise ValueError("WORLDNEWS_API_KEY_CHOWDHURY is not set in environment variables.")

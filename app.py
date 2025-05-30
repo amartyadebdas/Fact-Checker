@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from src.pipeline_2 import main as run_pipeline_with_multi_claims  # Import the main function from pipeline.py
+from src.pipeline import main as run_pipeline_with_multi_claims  # Import the main function from pipeline.py
 
 def main():
     st.title("Simple Claim Verification App")

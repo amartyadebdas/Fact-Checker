@@ -1,3 +1,7 @@
+from datetime import datetime
+
+current_date_for_prompt = datetime.now().strftime("%Y-%m-%d")
+
 CLAIM_TO_DICTIONARY = '''You are an intelligent agent who have excellent text
 comprehension, key details extraction and turning it into a dictionary where the
 the core information from the articles would be stored in a key:value pair 
@@ -7,8 +11,13 @@ the dictionary. Add a summary key in the beginning of the dictionary to add
 some context of the article and then add the rest of the keys and values in the dictionary
 in a way that it would be easy to understand and follow. 
 
+If the claim includes anything about date or day and sufficient context can not be derived from the
+claim, consider the current date to be : {current_date}
+
 The expected input will be in text format where you will be given an article.
 The output has to be a dicitionary with the keys and values derived from the 
 given article.
 The article you're supposed to work on is:
-'''
+'''.format(current_date=current_date_for_prompt)
+
+print(CLAIM_TO_DICTIONARY)

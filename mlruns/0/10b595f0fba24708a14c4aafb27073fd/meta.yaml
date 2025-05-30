@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amartya.debdas/Desktop/Projects_Personal/test/Fact-Checker/mlruns/0/10b595f0fba24708a14c4aafb27073fd/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10b595f0fba24708a14c4aafb27073fd
+run_name: amazing-cub-408
+run_uuid: 10b595f0fba24708a14c4aafb27073fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748590607942
+status: 1
+tags: []
+user_id: amartya.debdas

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amartya.debdas/Desktop/Projects_Personal/test/Fact-Checker/mlruns/0/ce648ff2e0954a39ad289f391731fb33/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce648ff2e0954a39ad289f391731fb33
+run_name: agreeable-shrimp-541
+run_uuid: ce648ff2e0954a39ad289f391731fb33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748587615461
+status: 1
+tags: []
+user_id: amartya.debdas

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amartya.debdas/Desktop/Projects_Personal/test/Fact-Checker/mlruns/0/7de63782c05b4ba180f85c13f830df4c/artifacts
+end_time: 1748590921006
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7de63782c05b4ba180f85c13f830df4c
+run_name: Claim_Processing_1
+run_uuid: 7de63782c05b4ba180f85c13f830df4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748590878456
+status: 3
+tags: []
+user_id: amartya.debdas
