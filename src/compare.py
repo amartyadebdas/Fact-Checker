@@ -1,12 +1,6 @@
 import os
-from dotenv import load_dotenv
-from langchain_openai.chat_models import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
-from prompts.claim_vs_evidence import CLAIM_VS_EVIDENCE
+from langchain_core.prompts import ChatPromptTemplate
 
-load_dotenv()
-openai_api_key = os.environ.get("OPENAI_API_KEY")
-llm = ChatOpenAI(model="gpt-4o-mini", api_key=openai_api_key)
 
 def compare_claim_with_evidence(claim_dict: dict, evidence_dict: dict, llm, prompt) -> str:
     """
@@ -21,8 +15,19 @@ def compare_claim_with_evidence(claim_dict: dict, evidence_dict: dict, llm, prom
     Returns:
         str: The response from the language model comparing the two dictionaries.
     """
-    system_message = SystemMessage(content=prompt.format(claim_dictionary=claim_dict, evidence_dictionary=evidence_dict))
-    human_message = HumanMessage(content="Generate the response in such a way that shows where the claim doesn't match the evidence in English Natural Language.")
-    
-    response = llm.invoke([system_message, human_message])
+
+    final_prompt = ChatPromptTemplate.from_messages(
+        [
+            ('system',prompt),
+            ('human','{input}')
+        ]
+    )
+    chain = final_prompt |llm
+
+    response = chain.invoke({
+        'input':"Generate the response in such a way that shows where the claim doesn't match the evidence in English Natural Language.",
+        'claim_dictionary':claim_dict,
+        'evidence_dictionary':evidence_dict
+
+    })
     return response.content

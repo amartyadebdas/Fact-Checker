@@ -1,18 +1,10 @@
-import os
 import ast
 from typing import List, Dict
-
-from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
+from langchain_core.prompts import ChatPromptTemplate
 
-load_dotenv()
-openai_api_key = os.environ.get("OPENAI_API_KEY")
-llm = ChatOpenAI(model="gpt-4o-mini", api_key=openai_api_key)
 
-from prompts.articles_to_dict import ARTICLE_TO_DICIONARY
-
-def generate_article_dictionaries(prompt_template: str, blank_dict: dict, articles: List[str], llm) -> List[Dict]:
+def generate_article_dictionaries(prompt_template: str, blank_dict: str, articles, llm:ChatOpenAI) -> List[Dict]:
     """
     Uses an LLM to generate dictionaries from a list of articles, based on a structured prompt and blank dictionary.
 
@@ -24,16 +16,20 @@ def generate_article_dictionaries(prompt_template: str, blank_dict: dict, articl
     Returns:
         List[Dict]: A list of dictionaries generated from the articles.
     """
-    
 
-    final_prompt = prompt_template.format(blank_claim_dict=blank_dict)
-    system_message = SystemMessage(content=final_prompt)
+    final_prompt = ChatPromptTemplate.from_messages([
+        ('system',prompt_template),
+        ('human',"{input}")
+    ])
 
     results = []
 
     for article_text in articles:
-        human_message = HumanMessage(content=article_text)
-        response = llm.invoke([system_message, human_message])
+        chain = final_prompt | llm
+        response = chain.invoke({
+            'blank_claim_dict':blank_dict,
+            "input": article_text
+        })
 
         try:
             parsed = ast.literal_eval(response.content)
@@ -42,3 +38,4 @@ def generate_article_dictionaries(prompt_template: str, blank_dict: dict, articl
             print(f"Failed to parse response: {e}")
 
     return results
+

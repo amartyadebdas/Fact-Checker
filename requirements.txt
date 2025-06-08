@@ -3,3 +3,4 @@ worldnewsapi
 streamlit
 openai
 langchain_openai
+mlflow

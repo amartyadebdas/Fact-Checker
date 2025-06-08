@@ -1,14 +1,5 @@
 import os
-from dotenv import load_dotenv
-
-from langchain_openai.chat_models import ChatOpenAI
-from langchain.schema import SystemMessage, HumanMessage
-
-from prompts.blank_dictionary import BLANK_DICTIONARY
-
-load_dotenv()
-openai_api_key = os.environ.get("OPENAI_API_KEY")
-llm = ChatOpenAI(model="gpt-4o-mini", api_key=openai_api_key)
+from langchain_core.prompts import ChatPromptTemplate
 
 def generate_blank_dict(prompt_template: str, claim_dictionary: dict, llm) -> dict:
     """
@@ -21,9 +12,20 @@ def generate_blank_dict(prompt_template: str, claim_dictionary: dict, llm) -> di
     Returns:
         dict: A dictionary parsed from the language model's response.
     """
-    
-    system_message = SystemMessage(content=prompt_template)
-    human_message = HumanMessage(content=f"{claim_dictionary}")
 
-    response = llm.invoke([system_message, human_message])
-    return response.content
+    final_prompt = ChatPromptTemplate.from_messages(
+        [
+            ('system', prompt_template),
+            ('human','{input}')
+        ]
+    )
+    chain = final_prompt | llm
+
+    response = chain.invoke({
+        'input':claim_dictionary
+    })
+
+    response = response.content.replace('json','')
+    response = response.replace('python','')
+    return response
+

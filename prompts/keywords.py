@@ -33,7 +33,7 @@ The text you will receive below `--- CLAIM TEXT START ---` is a *single, specifi
 
 ### OUTPUT REQUIREMENTS ###
 1.  **Format:** Keywords from the entire claim separated by comma. Keywords/phrases implying AND should be comma-separated. Use `OR`, `-`, and `""` as per standard API syntax.
-    **Example structure:** 'Elon Musk', 'Twitter', layoffs, job cuts, "October 24 2023", "500 employees"
+    **Example structure:** 'Elon Musk, Twitter, layoffs, job cuts, "October 24 2023", "500 employees"'
 2.  **Length:** **MAXIMUM 100 characters and MINIMUM 3 characters total ** This is a non-negotiable limit.
 3.  **Content:** Only the generated keywords. All the relevant keywords generated separated by a comma, no "Keywords:" prefix.
  
